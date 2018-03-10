@@ -1,5 +1,6 @@
 all:     
 	xelatex main.tex
+	cp main.tex README.pdf
 	open main.pdf -a Skim
 
 clean:
